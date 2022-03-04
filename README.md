@@ -1,7 +1,7 @@
 <!-- #region -->
 # Artificial Intelligence - Simple Python Code Examples and Assignments
 
-<img src="http://aima.cs.berkeley.edu/cover2.jpg" align="right">
+<img src="assets/cover2.jpg" align="right">
 
 
 Assignments and examples for the course in CS 5/7320 Artificial Intelligence taught at the 
@@ -51,8 +51,22 @@ How to use Jupyter notebooks is covered in many online tutorials like the [Jupye
 ## Working on Assignments
 
 You can fork this repository to work on your solutions with version control.
-The assignments are improved frequently, so always sync your fork before you start to work on a new assignment.
-The notebook needs to be a complete project report with documentation (including your design choices), code and the results (e.g., tables with simulation results) with a short discussion of what they mean. Use the provided notebook cells and insert additional code and markdown cells as needed.
+The assignments are improved frequently, so always sync your fork before you start to work on a new assignment. Here is how to update your repository with my changes:
+
+```
+git fetch upstream
+git checkout master
+git merge upstream/master
+git push
+```
+
+Your assignment notebooks needs to be a complete project reports with 
+
+- documentation (including your design choices), 
+- code (with comments for difficult to unserstand sections) and
+- results (e.g., tables with simulation results) with a short discussion of what they mean. 
+
+Use the provided notebook cells and insert additional code and markdown cells as needed.
 
 ## License
 All code and documents in this repository are provided under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License.](https://creativecommons.org/licenses/by-sa/4.0/)
