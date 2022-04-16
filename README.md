@@ -9,18 +9,18 @@ Assignments and examples for the course in CS 5/7320 Artificial Intelligence tau
 [SMU's Canvas](https://www.smu.edu/OIT/Services/Canvas).
 
 
-The code examples follow the textbook [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) by Russell and Norvig. The code in this repository is intended to be simple to focus more on the basic AI concepts and less on the use of advanced implementation techniques (e.g., object-oriented design).
+The code examples follow the textbook [Artificial Intelligence: A Modern Approach (AIMA)](http://aima.cs.berkeley.edu/) by Russell and Norvig. The code in this repository is intended to be simple to focus more on the basic AI concepts and less on the use of advanced implementation techniques (e.g., object-oriented design).
 More complex code examples accompanying the textbook can be found at the [GitHub repository aimacode](https://github.com/aimacode).  
 
-## Covered Chapters
+## Covered AIMA Chapters
 
 | Chapter | Slides | Code |
 | :-------| :----: | :--: |
 | 1: Introduction to AI | [Slides](https://mhahsler.github.io/CS7320-AI/slides/01_intro.pdf) | - | 
 | 2: Intelligent Agents | [Slides](https://mhahsler.github.io/CS7320-AI/slides/02_agents.pdf) | [Code](Agents) | 
 | 3: Solving Problems by Search | [Slides](https://mhahsler.github.io/CS7320-AI/slides/03_search.pdf) | [Code](Search) |
-| 4.1: Search in Complex Environments: Local Search | [Slides](https://mhahsler.github.io/CS7320-AI/slides/04_local_search.pdf) | [Code](Local_Search) |
-| 4: Search in Complex Environments: Search with Uncertainty | [Slides](https://mhahsler.github.io/CS7320-AI/slides/04_search_with_uncertainty.pdf) | [Code](Games) |
+| 4.1-2: Search in Complex Environments: Local Search | [Slides](https://mhahsler.github.io/CS7320-AI/slides/04_local_search.pdf) | [Code](Local_Search) |
+| 4.3-5: Search in Complex Environments: Search with Uncertainty | [Slides](https://mhahsler.github.io/CS7320-AI/slides/04_search_with_uncertainty.pdf) | [Code](Games) |
 | 5: Adversarial Search and Games | [Slides](https://mhahsler.github.io/CS7320-AI/slides/05_games.pdf) | [Code](Games) |
 | 6: Constraint Satisfaction Problem | [Slides](https://mhahsler.github.io/CS7320-AI/slides/06_CSP.pdf) | [Code](CSP) |
 | 7-9: Logical Agents | [Slides](https://mhahsler.github.io/CS7320-AI/slides/07_logic.pdf) | - |
@@ -30,10 +30,10 @@ More complex code examples accompanying the textbook can be found at the [GitHub
 
 ## Installing Python and Jupyter Notebook
 
-You can experiment with the code online without installation using Binder. 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mhahsler/CS7320-AI/HEAD)
+You can experiment with the code online without installation using 
+[Google CoLab](https://colab.research.google.com/github/mhahsler/CS7320-AI/).
 
-To work on assignments, you need to install Python and Jupyter Notebook on your system. You can 
+To work on assignments, you can use Colab or you need to install Python and Jupyter Notebook on your system. You can 
 * __[preferred solution]__ Install [Docker](https://www.docker.com/products/docker-desktop) and 
 execute `docker run -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes jupyter/datascience-notebook` to download and create a container that runs
 Jupyter Lab and bookmark the link (including the login token) that you get during installation. 
@@ -41,6 +41,8 @@ Details and configuration options can be found on the [Jupyter Docker stack GitH
 From now on, use `docker ps -a` to list containers and their container id, `docker stop <container id>` and `docker start <container id>` to stop and start the container (**do not use `run` again** because it will create a new empty container).
 
 * Install Python, Jupyter Notebook, and the needed packages (e.g., using [Anaconda](https://www.anaconda.com/)).
+
+* Use [Google CoLab](https://colab.research.google.com).
 
 ## Learning Python and Jupyer Notebook
 
